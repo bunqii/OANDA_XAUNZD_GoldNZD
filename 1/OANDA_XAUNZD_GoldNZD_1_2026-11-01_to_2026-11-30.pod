@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "XAU_NZD",
+  "granularity": "M1",
+  "chunk_start": "2026-11-01",
+  "chunk_end": "2026-11-30",
+  "parquet_file": "OANDA_XAUNZD_GoldNZD_1_2026-11-01_to_2026-11-30.parquet",
+  "data_file": "OANDA_XAUNZD_GoldNZD_1_2026-11-01_to_2026-11-30.parquet",
+  "row_count": 412,
+  "first_candle": {
+    "time": 1793574240,
+    "Time": "2026-11-01T23:04:00.000000000Z",
+    "open": 6923.52,
+    "high": 6923.52,
+    "low": 6921.014,
+    "close": 6922.258,
+    "volume": 47
+  },
+  "last_candle": {
+    "time": 1793598900,
+    "Time": "2026-11-02T05:55:00.000000000Z",
+    "open": 6968.91,
+    "high": 6970.77,
+    "low": 6968.472,
+    "close": 6969.158,
+    "volume": 296
+  },
+  "csv_file": "OANDA_XAUNZD_GoldNZD_1_2026-11-01_to_2026-11-30.parquet",
+  "csv_row_count": 412,
+  "csv_first_candle": {
+    "time": 1793574240,
+    "Time": "2026-11-01T23:04:00.000000000Z",
+    "open": 6923.52,
+    "high": 6923.52,
+    "low": 6921.014,
+    "close": 6922.258,
+    "volume": 47
+  },
+  "csv_last_candle": {
+    "time": 1793598900,
+    "Time": "2026-11-02T05:55:00.000000000Z",
+    "open": 6968.91,
+    "high": 6970.77,
+    "low": 6968.472,
+    "close": 6969.158,
+    "volume": 296
+  },
+  "status": "VERIFIED_PARTIAL",
+  "verified_at": "2026-11-02T05:56:20.000000000Z",
+  "generated_at": "2026-11-02T05:56:20.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 1,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2026-11-01T00:00:00Z",
+        "to": "2026-11-02T05:56:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
